@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <project path="device/xiaomi/mido" name="android_device_xiaomi_mido" remote="los" />
+    <project path="device/xiaomi/mido" name="ubports-mido/ubports_device_xiaomi_mido" remote="hal" revision="master" />
 
-    <project path="kernel/xiaomi/msm8953" name="herrie82/android_kernel_xiaomi_msm8953" remote="hal" revision="pgz-14.1-eb8" />
+    <project path="kernel/xiaomi/msm8953" name="ubports-mido/android_kernel_xiaomi_msm8953" remote="hal" revision="dev" />
 
-    <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="them" />
+    <project path="vendor/xiaomi" name="ubports-mido/proprietary_vendor_xiaomi" remote="hal" revision="dev" />
 </manifest>
